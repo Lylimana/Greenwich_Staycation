@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+
+    <title>Home Page</title>
+
+    <link rel='stylesheet' type='text/css' media='screen' href='styles/WebsiteDesign1.css'>
+
+</head>
+
+<body>
+
+    <script src="scripts/Homepage.js">
+
+    </script>
+
+
+<!-- Navigation Bar ------------------------------------------------------------------------------>
+<header>
+    
+<div></div>
+
+<div class="NavBarBox"></div>  
+
+    <ul class="NavigationBar">
+        <li><a href="Homepage.html">Home</a></li>
+        <li><a href="ThingsToDopage.html">Things to do</a></li>
+        <li><a href="WhatsOnpage.html">What's on</a></li>
+        <li><a href="FoodAndDrinkspage.html">Food & Drinks</a></li>
+        <li><a href="ExploreTheBoroughpage.html">Explore the Borough</a></li>
+
+        <a href="PlanYourVisitpage.html"><button>Plan your visit</button></a>    
+    </ul>
+    
+
+</header>
+
+<!-- Explore Greenwich Header------------------------------------------------------------------------------>
+
+<h1>
+   <ul class="ExploreGreen">
+        <li>Explore</li>
+        <li>Greenwich</li>
+        <button>
+            <a class="cta" href="PlanYourVisitpage.html">Plan your visit</a>   
+        </button> 
+   </ul> 
+</h1>
+
+<!-- Slideshow images ------------------------------------------------------------------------------>
+
+<div class="slideshowBox">
+
+    <div class="BackgroundImages">
+        <img src="images/GreenwichUniversity.jpg" alt="Greenwich University">
+        <div class="BGIcaptions">Greenwich University</div>
+    </div>
+
+    <div class="BackgroundImages">
+        <img src="images/CuttySark.jpg" alt="Cutty Sark">
+        <div class="BGIcaptions">Cutty Sark</div>
+    </div>
+
+    <div class="BackgroundImages">
+        <img src="images/O2.jpg" alt="O2">
+        <div class="BGIcaptions">O2</div>
+    </div>
+
+    <div class="BackgroundImages">
+        <img src="images/WoolwichArsenal.jpg" alt="Woolwich Arsenal">
+        <div class="BGIcaptions">Woolwich Arsenal</div>
+    </div>
+
+    <div class="BackgroundImages">
+        <img src="images/MaritimeMuseum.jpg" alt="Maritime Museum">
+        <div class="BGIcaptions">Maritime Museum</div>
+    </div>
+
+    <!-- Slideshow buttons------------------------------------------------------------------------------>
+
+    <div class="SlideButLeft">
+        <button onclick="plusSlides(-1)">&lt;</button>   
+    </div>  
+    
+    <div class="SlideButRight">
+        <button onclick="plusSlides(1)">></button>   
+    </div>  
+
+    <!-- ------------------------------------------------------------------------------>
+
+</div>
+
+<!-- Slideshow Dots ------------------------------------------------------------------------------>
+
+<div class="SlideDots">
+    <span class="dot" onclick="currentSlide(1)"></span>
+    <span class="dot" onclick="currentSlide(2)"></span>
+    <span class="dot" onclick="currentSlide(3)"></span>
+    <span class="dot" onclick="currentSlide(4)"></span>
+    <span class="dot" onclick="currentSlide(5)"></span>
+</div>
+
+<!-- ------------------------------------------------------------------------------>
+
+
+</body>
+
+</html>

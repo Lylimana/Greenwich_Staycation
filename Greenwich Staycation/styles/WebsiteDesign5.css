@@ -1,0 +1,178 @@
+body {
+    font-family: Arial;
+    background-color: #2c2e33;
+    color: rgb(143, 143, 143);
+}
+/*- Header --------------------------------------------------------------------------------*/
+
+h1{
+font-size: 120px;
+    color: rgb(255, 255, 255);
+}
+
+/*---------------------------------------------------------------------------------*/
+li, a, button { 
+    font-family: arial;
+    font-weight: 500;
+    color: white;
+    text-decoration: none;
+}
+
+li{ 
+    list-style-type: none;
+}
+
+/*- Plan your visit button --------------------------------------------------------------------------------*/
+
+button {
+    /* font-weight: bold; */
+    font-size: 20px;
+    color: white;
+    background-color:#3b913b;
+    border: 0px solid ;
+    border-radius: 18px;
+    padding: 17px 20px;
+}
+button:link, button:visited {
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+}
+
+button:hover, button:active {
+    cursor: pointer;
+    color: #3b913b;
+    background-color:white;
+}
+
+/*- Navigation bar --------------------------------------------------------------------------------*/
+
+.NavigationBar :hover, .NavigationBar:active {
+    color: #E6C229;
+    z-index: 1;
+}
+
+.NavigationBar {
+    overflow: hidden;
+    position: fixed;
+    top: 2%;
+    right: 1%;
+    z-index: 1;
+}
+
+.NavigationBar, .NavigationBar li{
+    list-style: none;
+    display: inline-block;
+    padding: 0px 10px;
+    z-index: 1;
+}
+
+.NavBarBox {
+    position: fixed;
+    top: 2.8%;
+    right: 2%;
+    width: 748px;
+    height: 37px;
+    border-radius: 10px;
+    background-color: rgb(143, 143, 143);
+    z-index: 1;
+}
+
+/*---------------------------------------------------------------------------------*/
+
+* {
+box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+/*- Explore the borough header --------------------------------------------------------------------------------*/
+
+.ExploreTheBorough {
+    font-size: 130px;
+    z-index: 0;
+    position: relative;
+    top: 180px;
+    left:5%;
+    padding: 13px;
+}
+
+/*- Explore the borough caption--------------------------------------------------------------------------------*/
+
+.ETBcaption {
+    position: relative;
+    top: 180px;
+    left:5%;
+    font-size: 35px;
+    width: 1100px;
+    
+}
+
+/*- Background map image --------------------------------------------------------------------------------*/
+
+.Greenwich {
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: -1;
+
+}
+
+.Greenwich img {
+    opacity: 0.2;
+    width: 2559px;
+    height: 1400px;
+
+}
+
+/*- Location grid --------------------------------------------------------------------------------*/
+
+.grid {
+    position: relative;
+    top: 220px;
+    left: 10%;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    row-gap: 100px;
+}
+  
+.gridBox {
+    width: 300px;
+    height: 300px;
+    text-align: center;
+}
+
+.gridBox img {
+    width: 400px;
+    height: 400px;
+    padding: 20px;
+    font-size: 30px;
+    object-fit: cover;
+    border-radius: 200px;
+    opacity: 0.5;
+    z-index: 0;
+}
+
+.gridBox:hover img {
+    transition: 0.4s;
+    opacity: 1;
+    z-index: 1;
+}
+
+
+/*- Location grid --------------------------------------------------------------------------------*/
+
+.GBimageCaption {
+    position: relative;
+    font-size: 55px;
+    color: white;
+    bottom: 90%;
+    left: 17%;
+    opacity: 1;
+}
+
+/*- Address --------------------------------------------------------------------------------*/
+
+.Address {
+    font-size: 20px;
+}

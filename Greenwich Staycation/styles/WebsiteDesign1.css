@@ -1,0 +1,181 @@
+body {
+  background-color: rgb(44, 46, 51);
+  font-family: Arial;
+  color: rgb(143, 143, 143);
+}
+
+/*-- Plan your visit button -------------------------------------------------------------------------------*/
+
+button {
+  font-size: 20px;
+  color: white;
+  background-color:#3b913b;
+  border: 0px solid ;
+  border-radius: 18px;
+  padding: 17px 20px;
+}
+button:link, button:visited {
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+}
+
+button:hover, button:active {
+  cursor: pointer;
+  color: #3b913b;
+  background-color:white;
+}
+
+/*-- Navigation Bar -------------------------------------------------------------------------------*/
+
+.NavigationBar :hover, .NavigationBar:active {
+  color: #e6c229;
+}
+
+.NavigationBar {
+  overflow: hidden;
+  position: fixed;
+  top: 2%;
+  right: 1%;
+}
+
+.NavigationBar, .NavigationBar li{
+  list-style: none;
+  display: inline-block;
+  padding: 0px 10px;
+}
+
+.NavBarBox {
+  position: fixed;
+  top: 2.8%;
+  right: 2%;
+  width: 748px;
+  height: 37px;
+  border-radius: 10px;
+  background-color: rgb(143, 143, 143);
+}
+
+li, a, button { 
+  font-family: arial;
+  font-weight: 500;
+  color: white;
+  text-decoration: none;
+  }
+  
+  li{ 
+  list-style-type: none;
+  }
+  
+
+/*-- Explore Greenwich Header -------------------------------------------------------------------------------*/
+
+h1 {
+  cursor: pointer;
+  font-size: 120px;
+  color: rgb(255, 255, 255);
+}
+
+.ExploreGreen {
+  position:fixed;
+  top: 33%;
+  right:20%;
+}
+
+/*-- Slide buttons -------------------------------------------------------------------------------*/
+
+.SlideButRight {
+  position:fixed;
+  top: 43%;
+  right:2%;
+}
+
+.SlideButLeft {
+  position:fixed;
+  top: 43%;
+  left:2%;
+}
+
+/*-- Background images-------------------------------------------------------------------------------*/
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+  
+.BackgroundImages, img {
+  max-width: auto;
+  max-height: auto;
+  opacity: 0.1;
+  transition: 1.5s;
+}
+
+.BackgroundImages, img:hover{
+  opacity: 0.7;
+}
+
+.BackgroundImages {
+  z-index: -1;
+  position: fixed;
+  height: 100%;
+  width: 100%;
+}
+
+.BackgroundImages {
+  display: none;
+}
+
+.slideshowBox {
+  position: relative;
+  margin: auto;
+}
+
+/*-- Dots -------------------------------------------------------------------------------*/
+
+.dot {
+  cursor: pointer;
+  height: 30px;
+  width: 30px;
+  margin: 0 2px;
+  background-color: rgb(143, 143, 143);
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active, .dot:hover {
+  background-color: rgba(143, 143, 143, 0.397);
+}
+
+.SlideDots {
+  top: 90%;
+  right: 47%;
+  position: fixed;
+}
+
+/*---------------------------------------------------------------------------------*/
+
+.BGIcaptions {
+  position: absolute;
+  opacity: 0.2;
+  top: 43%;
+  left: 13%;
+  font-size: 80px;
+  z-index: 0;
+  color: white;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

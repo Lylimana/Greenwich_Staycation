@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<!-- saved from url=(0038)http://127.0.0.1:5500/WhatsOnpage.html -->
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+
+    
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>Whats On</title>
+
+    
+
+<link rel="stylesheet" type="text/css" media="screen" href="./Whats On_files/WebsiteDesign3.css"></head>
+
+<body data-new-gr-c-s-check-loaded="14.1058.0" data-gr-ext-installed="">
+
+    <script src="./Whats On_files/WebsiteInteractivity.js.download">
+
+    </script>
+
+
+<!-- ------------------------------------------------------------------------------>
+<header>
+    
+<div></div>
+
+<div class="NavBarBox"></div>   
+
+    <ul class="NavigationBar">
+        <li><a href="http://127.0.0.1:5500/Homepage.html">Home</a></li>
+        <li><a href="http://127.0.0.1:5500/ThingsToDopage.html">Things to do</a></li>
+        <li><a href="http://127.0.0.1:5500/WhatsOnpage.html">What's on</a></li>
+        <li><a href="http://127.0.0.1:5500/FoodAndDrinkspage.html">Food &amp; Drinks</a></li>
+        <li><a href="http://127.0.0.1:5500/ExploreTheBoroughpage.html">Explore the Borough</a></li>
+
+        <a class="cta" href="http://127.0.0.1:5500/PlanYourVisitpage.html"><button>Plan your visit</button></a>    
+    </ul>
+
+    
+</header>
+
+<!-- ------------------------------------------------------------------------------>
+
+<h1>
+    <ul class="WhatsOn">
+        <li>What's On</li>
+    </ul> 
+</h1>
+
+<!-- ------------------------------------------------------------------------------>
+
+<div class="WOcaption">
+   <p>
+        See what events are on through our events calender. 
+   </p>
+</div>
+
+<!-- ------------------------------------------------------------------------------>
+
+<div class="calender">
+
+    <div class="month">
+        <ul>
+            <li>2021</li>
+            <li>August</li>
+        </ul>
+    </div>
+<!--     
+    <ul class="weekdays">
+        <li>Monday</li>
+        <li>Tuesday</li>
+        <li>Wednesday</li>
+        <li>Thursday</li>
+        <li>Friday</li>
+        <li>Saturday</li>
+        <li>Sunday</li>
+    </ul>
+    
+    <ul class="days">
+        <li>1</li>
+        <li>2</li>
+        <li>3</li>
+        <li>4</li>
+        <li>5</li>
+        <li>6</li>
+        <li>7</li>
+        <li>8</li>
+        <li>9</li>
+        <li>10</li>
+        <li>11</li>
+        <li>12</li>
+        <li>13</li>
+        <li>14</li>
+        <li>15</li>
+        <li>16</li>
+        <li>17</li>
+        <li>18</li>
+        <li>19</li>
+        <li>20</li>
+        <li>21</li>
+        <li>22</li>
+        <li>23</li>
+        <li>24</li>
+        <li>25</li>
+        <li>26</li>
+        <li>27</li>
+        <li>28</li>
+        <li>29</li>
+        <li>30</li>
+    </ul> -->
+
+</div>
+
+<table id="CalenderDays">
+
+    <tbody><tr>
+        <th>Monday</th>
+        <th>Tuesday</th>
+        <th>Wednesday</th>
+        <th>Thursday</th>
+        <th>Friday</th>
+        <th>Saturday</th>
+        <th>Sunday</th>
+    </tr>
+
+    <tr>
+        <td>1</td>
+        <td>2</td>
+        <td>3</td>
+        <td>4</td>
+        <td>5</td>
+        <td>6</td>
+        <td>7</td>
+    </tr>
+
+    <tr>
+        <td>8</td>
+        <td>9</td>
+        <td>10</td>
+        <td>11</td>
+        <td>12</td>
+        <td>13</td>
+        <td>14</td>
+    </tr>
+
+    <tr>
+        <td>15</td>
+        <td>16</td>
+        <td>17</td>
+        <td>18</td>
+        <td>19</td>
+        <td>20</td>
+        <td>21</td>
+    </tr>
+
+    <tr>
+        <td>22</td>
+        <td>23</td>
+        <td>24</td>
+        <td>25</td>
+        <td>26</td>
+        <td>27</td>
+        <td>28</td>
+    </tr>
+
+    <tr>
+        <td>29</td>
+        <td>30</td>
+    </tr>
+
+</tbody></table>
+
+
+<!-- Code injected by live-server -->
+<script type="text/javascript">
+	// <![CDATA[  <-- For SVG support
+	if ('WebSocket' in window) {
+		(function () {
+			function refreshCSS() {
+				var sheets = [].slice.call(document.getElementsByTagName("link"));
+				var head = document.getElementsByTagName("head")[0];
+				for (var i = 0; i < sheets.length; ++i) {
+					var elem = sheets[i];
+					var parent = elem.parentElement || head;
+					parent.removeChild(elem);
+					var rel = elem.rel;
+					if (elem.href && typeof rel != "string" || rel.length == 0 || rel.toLowerCase() == "stylesheet") {
+						var url = elem.href.replace(/(&|\?)_cacheOverride=\d+/, '');
+						elem.href = url + (url.indexOf('?') >= 0 ? '&' : '?') + '_cacheOverride=' + (new Date().valueOf());
+					}
+					parent.appendChild(elem);
+				}
+			}
+			var protocol = window.location.protocol === 'http:' ? 'ws://' : 'wss://';
+			var address = protocol + window.location.host + window.location.pathname + '/ws';
+			var socket = new WebSocket(address);
+			socket.onmessage = function (msg) {
+				if (msg.data == 'reload') window.location.reload();
+				else if (msg.data == 'refreshcss') refreshCSS();
+			};
+			if (sessionStorage && !sessionStorage.getItem('IsThisFirstTime_Log_From_LiveServer')) {
+				console.log('Live reload enabled.');
+				sessionStorage.setItem('IsThisFirstTime_Log_From_LiveServer', true);
+			}
+		})();
+	}
+	else {
+		console.error('Upgrade your browser. This Browser is NOT supported WebSocket for Live-Reloading.');
+	}
+	// ]]>
+</script>
+
+</body><grammarly-desktop-integration data-grammarly-shadow-root="true"></grammarly-desktop-integration></html>
